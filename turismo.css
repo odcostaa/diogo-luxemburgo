@@ -1,0 +1,688 @@
+* {
+    padding: 0;
+    font-family: Arial;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.background{
+    width: 100%;
+    height: 711%;
+    background: linear-gradient(rgb(238, 238, 238), rgb(159, 155, 155));
+    position: absolute;
+    z-index: -1;
+}
+
+.menutopo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.menutopo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.04vh 4.69vw 1.25vh 7.39vw;
+    align-items: center;
+    padding-top: 3.5vh;
+    padding-bottom: 1.39vh;
+    position: relative;
+    font-size: 0.68vw;
+    z-index: 1;
+}
+
+#contato {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 0.15625vw;
+    padding: 0.48vh 0.63vw 0.48vh 0.63vw;
+    align-items: center;
+    opacity: 100%;
+    position: absolute;
+    transition: 0.7s;
+    right: 6.25vw;
+    border-style: solid;
+    border-width: 0.14vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#curiosidades {
+    margin-right: 43.08vw;
+}
+
+.topo a, th {
+    opacity: 70%;
+    transition: 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+}
+
+
+.rodape {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h5{
+    margin-top: 450vh;
+}
+
+.th{
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+}
+
+table{
+    margin-left: -12vh;
+    margin-top: -10vh;
+    white-space: nowrap;
+}
+
+th, a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+}
+.dropmenu a {
+    display: block;
+    padding: 0.42vh 0 0.88vh 0;
+}
+
+.dropmenu {
+    background-color: transparent;
+    position: absolute;
+    padding-top: 1.09vh;
+    display: none;
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+.drop {
+    display: block;
+    align-items: center;
+    font-weight: 100;
+    font-size: 2vh;
+    text-align: left;
+}
+
+.drop a{
+    margin: 1vh 0 0 0;
+}
+
+.drop:hover .dropmenu {
+    display: block;
+}
+
+.drop:hover .bgrecursos {
+    display: block;
+}
+
+#contato{
+    margin-left: 62vh;
+    margin-top: -2vh;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 109.3vh;
+}   
+
+.p2 {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 10vh;
+    margin-top: 5%;
+    text-align: center;
+    transition: 1s all;
+}
+
+.naturalimg {
+    margin-top: 100vh;
+}
+
+.montanha {
+    position: absolute;
+    width: 15%;
+    margin: 40vh 0vh 0vh 55vh;
+    z-index: -1;
+}
+
+.natureza {
+    font-size: 6vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.bloconaturaldescription{
+    margin-left: 8%;
+}
+
+.mullerimg{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 18.5%;
+    margin-top: 17.7vh;
+    z-index: 2000;
+    position: absolute;
+}
+
+.bloconatureza1{
+    margin-left: 11.5%;
+}
+
+.fundonatureza1 {
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:15vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-right: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.naturezatitulo1{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 20.5vh;
+    margin-left: 100vh;
+}
+
+.descricaonatureza1 {
+    width: 35vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 100.3vh;
+    margin-top: 30vh;
+    letter-spacing: 0.5px;
+}
+
+.txtnatureza1 {
+    font-size: 3vh;
+}
+
+.classmatimg{
+    width: 25.3%;
+    border-radius: 10px;
+    margin-left: 55.5%;
+    margin-top: 74.2vh;
+    z-index: 2000;
+    position: absolute;
+}
+
+.bloconatureza3{
+    margin-left: 11.5%;
+    margin-top: -4%;
+}
+
+.fundonatureza3{
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:80vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-left: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.naturezatitulo3{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 84vh;
+    margin-left: 15vh;
+}
+
+.descricaonatureza3 p{
+    width: 40vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 27.5vh;
+    margin-top: 96vh;
+    letter-spacing: 0.5px;
+}
+
+.txtnatureza3{
+    font-size: 3vh;
+    margin-left: -90vh;
+}
+
+.belairimg{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 18.5%;
+    margin-top: 139.5vh;
+    z-index: 2000;
+    position: absolute;
+}
+
+.bloconatureza2{
+    margin-left: 11.5%;
+    margin-top: 122vh;
+}
+
+.fundonatureza2 {
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:15vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-right: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.naturezatitulo2{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 20.5vh;
+    margin-left: 100vh;
+}
+
+.descricaonatureza2 {
+    width: 32vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 100.3vh;
+    margin-top: 30vh;
+    letter-spacing: 0.5px;
+}
+
+.txtnatureza2 {
+    font-size: 3vh;
+}
+
+.culinariaimg{
+    position: absolute;
+    width: 11%;
+    margin: 79.5vh 0vh 0vh 69vh;
+    z-index: -1;
+}
+
+.culinaria{
+    text-align: center;
+    z-index: 10;
+    margin-top: 210vh;
+    margin-bottom: 10vh;
+    color: rgb(0, 0, 0);
+}
+
+.prato1{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 51%;
+    margin-top: 19vh;
+    z-index: 2000;
+    position: absolute;
+}
+
+.blococulinaria1{
+    margin-left: 11.5%;
+}
+
+.fundoculinaria1 {
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:15vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-right: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.pratotitulo1{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 20.5vh;
+    margin-left: 25vh;
+}
+
+.descricaoculinaria1 {
+    width: 35vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 25vh;
+    margin-top: 32vh;
+    letter-spacing: 0.5px;
+}
+
+.txtculinaria1 {
+    font-size: 3vh;
+}
+
+.prato2{
+    width: 22%;
+    border-radius: 10px;
+    margin-left: 18.5%;
+    margin-top: 78.4vh;
+    z-index: 2000;
+    position: absolute;
+}
+
+.blococulinaria2{
+    margin-left: 11.5%;
+    margin-top: -3%;
+}
+
+.fundoculinaria2{
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:80vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-left: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.pratotitulo2{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 84vh;
+    margin-left: 90vh;
+}
+
+.descricaoculinaria2{
+    width: 28vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 90.3vh;
+    margin-top: 94vh;
+    letter-spacing: 0.5px;
+}
+
+.txtculinaria2{
+    font-size: 3vh;
+}
+
+.prato3{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 56%;
+    margin-top: 68%;
+    z-index: 2000;
+    position: absolute;
+}
+
+.blococulinaria3{
+    margin-left: 11.5%;
+    margin-top: 63.4%;
+}
+
+.fundoculinaria3 {
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:15vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-right: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.pratotitulo3{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 20.5vh;
+    margin-left: 25vh;
+}
+
+.descricaoculinaria3 {
+    width: 29vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 25vh;
+    margin-top: 32vh;
+    letter-spacing: 0.5px;
+}
+
+.txtculinaria3 {
+    font-size: 3vh;
+}
+
+.bolinha{
+    font-size: 2vh;
+    margin-left: 88.8vh;
+    margin-top: 12.5vh;
+    position: absolute;
+
+}
+
+.camera{
+    position: absolute;
+    margin-top: 478vh;
+    margin-left: 68vh;
+    width: 7%;
+}
+
+.turismo{
+    position: absolute;
+    text-align: center;
+    margin-top: 90vh;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.turismoimg1{
+    width: 28%;
+    border-radius: 10px;
+    margin-left: 18.5%;
+    margin-top: 121.4vh;
+    z-index: 2000;
+    position: absolute;
+}
+
+
+.blocoturismo1{
+    margin-left: 11.5%;
+    margin-top: 170vh;
+}
+
+.fundoturismo1{
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:80vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-left: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.turismotitulo1{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 84vh;
+    margin-left: 90vh;
+}
+
+.descricaoturismo1{
+    width: 40vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 90.3vh;
+    margin-top: 94vh;
+    letter-spacing: 0.5px;
+}
+
+.txtturismo1{
+    font-size: 3vh;
+}
+
+.turismoimg2{
+    width: 26%;
+    border-radius: 10px;
+    margin-left: 56%;
+    margin-top: 68%;
+    z-index: 2000;
+    position: absolute;
+}
+
+
+.blocoturismo2{
+    margin-left: 11.5%;
+    margin-top: 294vh;
+}
+
+.fundoturismo2 {
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:15vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-right: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.turismotitulo2{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 25vh;
+}
+
+.descricaoturismo2 {
+    width: 29vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 25vh;
+    margin-top: 28vh;
+    letter-spacing: 0.5px;
+}
+
+.txtturismo2 {
+    font-size: 3vh;
+}
+
+.turismoimg3{
+    width: 28%;
+    border-radius: 10px;
+    margin-left: 18.5%;
+    margin-top: 78vh;
+    z-index: 2000;
+    position: absolute;
+}
+
+.blocoturismo3{
+    margin-left: 11.5%;
+    margin-top: -6%;
+}
+
+.fundoturismo3{
+    width: 140vh;
+    height: 47vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top:80vh;
+    position: absolute;
+    background-color: rgba(55, 55, 55, 0.493);
+    border-left: white 0.3vh solid;
+    border-bottom: white 0.2vh solid;
+}
+
+.turismotitulo3{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 84vh;
+    margin-left: 90vh;
+}
+
+.descricaoturismo3{
+    width: 28vh;
+    height: 48vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    margin-left: 90.3vh;
+    margin-top: 94vh;
+    letter-spacing: 0.5px;
+}
+
+.txtturismo3{
+    font-size: 3vh;
+}
+
+.setabranca{
+    width: 2.5%;
+    padding: 2vh;
+    margin-top: -7vh;
+}
