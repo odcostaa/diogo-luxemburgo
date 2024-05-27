@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    font-family: Arial;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    overflow: hidden;
+}
+
+.menutopo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.menutopo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.04vh 4.69vw 1.25vh 7.39vw;
+    align-items: center;
+    padding-top: 3.5vh;
+    padding-bottom: 1.39vh;
+    position: relative;
+    font-size: 0.68vw;
+    z-index: 1;
+}
+
+#contato {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 0.15625vw;
+    padding: 0.48vh 0.63vw 0.48vh 0.63vw;
+    align-items: center;
+    opacity: 100%;
+    position: absolute;
+    transition: 0.7s;
+    right: 6.25vw;
+    border-style: solid;
+    border-width: 0.14vh;
+    background-color: white;
+}
+
+#curiosidades {
+    margin-right: 43.08vw;
+}
+
+.topo a,
+th {
+    opacity: 70%;
+    transition: 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+}
+
+
+.rodape {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    margin-top: 62.3vh;
+}
+
+.th {
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+}
+
+table {
+    margin-left: -12vh;
+    margin-top: -10vh;
+    white-space: nowrap;
+}
+
+th,
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+}
+
+.dropmenu a {
+    display: block;
+    padding: 0.42vh 0 0.88vh 0;
+}
+
+.dropmenu {
+    background-color: transparent;
+    position: absolute;
+    padding-top: 1.09vh;
+    display: none;
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+.drop {
+    display: block;
+    align-items: center;
+    font-weight: 100;
+    font-size: 2vh;
+    text-align: left;
+}
+
+.drop a {
+    margin: 1vh 0 0 0;
+}
+
+.drop:hover .dropmenu {
+    display: block;
+}
+
+
+
+.drop:hover .bgrecursos {
+    display: block;
+}
+
+#contato {
+    margin-left: 62vh;
+    margin-top: -2vh;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.bolinha {
+    font-size: 2vh;
+    margin-left: 113.1vh;
+    margin-top: 12.5vh;
+    position: absolute;
+}
+
+
+.pontointerr {
+    position: absolute;
+    width: 35%;
+    margin: 35vh 0vh 0vh 130vh;
+}
+
+h1 {
+    font-size: 10vh;
+    margin-left: 37vh;
+    margin-top: -2vh;
+    z-index: 1;
+}
+
+.txtcuriosidade {
+    width: 33%;
+    font-size: 2.8vh;
+    letter-spacing: 0.05vh;
+    background-color: white;
+    padding: 8vh 8vh 30vh 8vh;
+    border-radius: 3vh;
+    margin-left: 23vh;
+    margin-top: -6.2vh;
+    position: absolute;
+    z-index: -1;
+}

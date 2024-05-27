@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Entre em cotato</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" type="img/jpg" href="lux.png">
+    <link rel="icon" type="img/jpg" href="contatoico.png">
+    <script language="javascript" type="text/javascript">
+
+        function clicou() {
+            var nome = form1.nome.value;
+            var cpf = form1.cpf.value;
+            var telefone = form1.telefone.value;
+
+
+            if (nome == "") {
+                alert("Preencha o campo nome.");
+                form1.nome.focus();
+                return false;
+            }
+            
+            if (cpf == "") {
+                alert("Preencha o campo cpf.");
+                form1.cpf.focus();
+                return false;
+            }
+
+            if (cpf.length !== 14) {
+                alert("Preencha o campo cpf nesse formato: 000.000.000-00");
+                form1.cpf.focus();
+                return false;
+            }
+
+            if (telefone == "") {
+                alert("Preencha o campo telefone.");
+                form1.telefone.focus();
+                return false;
+            }else{
+                alert("Formulário enviado com sucesso!")
+            }
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="bolagrande"></div>
+    <div class="bolagrande2"></div>
+
+    <p class="bolinha">⚪</p>
+
+    <img src="fundocontato.webp" class="fundo">
+
+    <div class="linhahome"></div>
+
+    <div class="topodecoration">
+        <div class="backtopo"></div>
+    </div>
+
+    <div class="topo">
+        <table class="menu" cellspacing="82vh">
+            <th class="th">
+            <td><a href="index.html">Página inicial</a></td>
+            <td><a href="sobre.html">Sobre</a></td>
+
+            <th class="drop">
+
+                <span class="recursos">Recursos ▾</span>
+
+                <div class="dropmenu">
+                    <a href="geo.html" class="dropitem1">Geografia</a>
+                    <a href="demografia.html" class="dropitem2">Demografia</a>
+                    <a href="eco.html" class="dropitem3">Economia</a>
+                </div>
+            </th>
+
+            <td><a href="turis.html">Turismo</a></td>
+            <td><a href="curi.html">Curiosidades</a></td>
+            <td><a href="contato.html" id="contato">Contato</a></td>
+            </th>
+        </table>
+    </div>
+
+    <div class="container">
+
+        <div id="block1">
+            <p class="viaj">Contate-nos</p>
+
+            <form name="form1" action="" method="post">
+
+                <div class="input-box">
+                    <p>Nome:</p><input type="name" name="nome" placeholder="Insira seu nome completo" size="23vh">
+
+                    <p>Cfp:</p><input type="text" name="cpf" placeholder="Insira seu cpf" size="23vh">
+
+                    <p>Telefone:</p><input type="text" name="telefone" placeholder="Insira seu número de telefone"
+                        size="23vh">
+
+                    <p>Deixe seu recado:</p><textarea rows="4" cols="25"></textarea>
+                </div>
+
+
+
+                <div class="botoesconfirmacao">
+                    <div class="input-box2">
+                        <input type="submit" value="Enviar" name="Enviar" onclick="return clicou()">
+                    </div>
+
+                    <div class="input-box3">
+                        <input type="reset" value="Limpar" name="Limpar">
+                    </div>
+                    <div class="bolaviaje"></div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    <div class="rodape">
+        <h5>Diogo Vieira 2024 - &copyTodos os direitos reservados<br>
+            trabalho acadêmico sem fins lucrativos</h5>
+    </div>
+
+</body>
+
+</html>

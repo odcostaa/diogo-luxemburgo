@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    font-family: Arial;
+    margin: 0;
+}
+
+
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.menutopo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.menutopo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.04vh 4.69vw 1.25vh 7.39vw;
+    align-items: center;
+    padding-top: 3.5vh;
+    padding-bottom: 1.39vh;
+    position: relative;
+    font-size: 0.68vw;
+    z-index: 1;
+}
+
+#contato {
+    border-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 0.15625vw;
+    padding: 0.48vh 0.63vw 0.48vh 0.63vw;
+    align-items: center;
+    opacity: 100%;
+    position: absolute;
+    transition: 0.7s;
+    right: 6.25vw;
+    border-style: solid;
+    border-width: 0.14vh;
+    background-color: white;
+}
+
+#curiosidades {
+    margin-right: 43.08vw;
+}
+
+.topo a,
+th {
+    opacity: 70%;
+    transition: 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+}
+
+.bgrecursos {
+    background-color: rgb(0, 0, 0);
+    width: 5.9vw;
+    height: 11.21vh;
+    position: absolute;
+    top: 6.42vh;
+    left: 26.1vw;
+    box-shadow: 0px 1vh 0.83vh 0.26vw rgb(0, 0, 0);
+    display: none;
+    opacity: 15%;
+    border-bottom-right-radius: 1.04vw;
+    border-bottom-left-radius: 1.04vw;
+    z-index: -999;
+}
+
+.rodape {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    margin-top: 72.3vh;
+}
+
+.th {
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+}
+
+table {
+    margin-left: -12vh;
+    margin-top: -10vh;
+    white-space: nowrap;
+}
+
+th,
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+}
+
+.dropmenu a {
+    display: block;
+    padding: 0.42vh 0 0.88vh 0;
+}
+
+.dropmenu {
+    background-color: transparent;
+    position: absolute;
+    padding-top: 1.09vh;
+    display: none;
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+.drop {
+    display: block;
+    align-items: center;
+    font-weight: 100;
+    font-size: 2vh;
+    text-align: left;
+}
+
+.drop a {
+    margin: 1vh 0 0 0;
+}
+
+.drop:hover .dropmenu {
+    display: block;
+}
+
+
+
+.drop:hover .bgrecursos {
+    display: block;
+}
+
+#contato {
+    margin-left: 62vh;
+    margin-top: -2vh;
+}
+
+.p2 {
+    color: white;
+}
+
+.fundo {
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+    opacity: 27%;
+    height: 100%;
+    margin-top: 10vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#block1 {
+    background-color: white;
+    width: 27vw;
+    height: 33.5vw;
+    border-radius: 2vh;
+    background-color: rgba(255, 255, 255, 0.717);
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.contat {
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 2vh;
+    position: relative;
+
+}
+
+.viaj {
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 2vh;
+
+}
+
+.input-box input {
+    border: none;
+    box-shadow: 0px 2px 6px #00000022;
+    border-radius: 10px;
+    padding: 0.4rem 2rem 0.4rem 0.3rem;
+    font-size: 2.6vh;
+    background-color: rgba(255, 255, 255, 0.857);
+    position: relative;
+
+
+}
+
+.input-box input::placeholder {
+    font-size: 2vh;
+}
+
+.input-box p {
+    margin-left: 7vh;
+    margin-top: 2vh;
+    font-size: 2.7vh;
+    text-align: left;
+    position: relative;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    box-shadow: 0px 2px 6px #00000022;
+    border-radius: 10px;
+    font-size: 2.6vh;
+    background-color: rgba(255, 255, 255, 0.857);
+    position: relative;
+
+}
+
+.input-box {
+    margin-left: 1vh;
+    display: block;
+    text-align: center;
+    position: relative;
+
+}
+
+.input-box2 input {
+    border: none;
+    background-color: transparent;
+    font-size: 2.7vh;
+    box-shadow: 0px 0px 5px #00000034;
+    border-radius: 10px;
+    padding: 1.25vh 2vh;
+    position: relative;
+
+    background-color: rgba(255, 255, 255, 0.674);
+}
+
+.input-box3 input {
+    border: none;
+    background-color: transparent;
+    font-size: 2.7vh;
+    box-shadow: 0px 0px 5px #00000034;
+    border-radius: 10px;
+    padding: 1.25vh 2vh;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.674);
+}
+
+.botoesconfirmacao {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0vh 2vh 0vh 5vh;
+    margin-top: 3vh;
+    position: relative;
+
+}
+
+.bolinha {
+    font-size: 0.6vh;
+    margin-left: 21.3vh;
+    margin-top: 3.2vh;
+    position: absolute;
+
+}
